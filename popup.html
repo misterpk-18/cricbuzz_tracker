@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cricbuzz Tracker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="wrap">
+    <h1>Cricbuzz Tracker</h1>
+    <div class="controls">
+      <button id="refresh">Refresh</button>
+      <button id="clear">Clear All</button>
+      <button id="export">Export JSON</button>
+    </div>
+
+    <section>
+      <h2>Top 5 by Time Viewed</h2>
+      <ol id="top5" class="list"></ol>
+    </section>
+
+    <section>
+      <h2>All Watched Matches</h2>
+      <ul id="all" class="list"></ul>
+    </section>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
